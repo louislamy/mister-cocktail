@@ -1,0 +1,7 @@
+<h1>Cocktails#index</h1>
+
+<h1>My list of cocktails</h1>
+<% @cocktails.each do |cocktail| %>
+  <h2><%= cocktail.name %></h2>
+  <p><%= cocktail.description %></p>
+<% end %>
